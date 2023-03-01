@@ -93,6 +93,7 @@ html {
 #presentation h1,h2,h3{
   color: #bad66e;
   text-shadow: 4px 4px 8px #000;
+  margin-top: 60px;
 }
 
 #presentation p{
