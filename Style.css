@@ -24,10 +24,16 @@ html {
   background-position: center;
 }
 
-#banner h3, h4{
-  color: #ffffff;
-  text-shadow: 3px 3px 3px #000000;
+#banner h3{
+  color: #bad66e;
+  text-shadow: 2px 2px 4px #000000;
 }
+
+#banner h4{
+  color: #bad66e;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 /*head*/
 #head {
   display: flex;
@@ -56,7 +62,7 @@ html {
 
 #navbar li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 600;
   color: #ffffff;
   transition: 0.3s ease;
@@ -93,7 +99,7 @@ html {
 #presentation h1,h2,h3{
   color: #bad66e;
   text-shadow: 4px 4px 8px #000;
-  margin-top: 60px;
+  padding: 40px;
 }
 
 #presentation p{
@@ -119,6 +125,24 @@ html {
 }
 
 /*skills*/
+#skills h2{
+  background-color: #bad66e;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: none;
+  padding: 0%;
+}
+
+#skills h3{
+  background-color: #ffffff;
+  color: #bad66e;
+  text-shadow: none;
+  font-size: 40px;
+  text-align: center;
+  padding: 0%;
+}
+
 .box {
   background-color: #ffffff;
   margin: 5px 0 0;
@@ -136,29 +160,16 @@ html {
   height: 50vh;
 }
 
-.box .list h2{
-  background-color: #bad66e;
-  color: #ffffff;
-  font-size: 35px;
-  text-align: center;
-  text-shadow: none;
-}
-
-.box .list h3{
-  background-color: #ffffff;
-  color: #bad66e;
-  text-shadow: none;
-  font-size: 35px;
-  text-align: center;
-}
 /*Projects*/
 .projectsbox {
+  background-color: #465331;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-top: 25px;
 }
 
 .project {
@@ -212,7 +223,7 @@ html {
   color: #ffffff;
   font-size: 45px;
   font-weight: 700;
-  text-shadow: 3px 3px 6px #000000;
+  text-shadow: 2px 2px 3px #000000;
   margin: 15px;
 }
 
@@ -220,26 +231,31 @@ html {
   font-size: 35px;
   font-weight: 600;
   color: #ffffff;
-  text-shadow: 3px 3px 6px #000000;
+  text-shadow: 2px 2px 3px #000000;
 }
 
 #contact span{
   font-size: 20px;
   font-weight: 650;
   color: #ffffff;
-  text-shadow: 3px 3px 4spx #000000;
+  text-shadow: 2px 2px 3spx #000000;
 }
 
 #contact p{
   font-size: 20px;
   font-weight: 650;
   color: #bad66e;
-  text-shadow: 4px 4px 6px #000000;
+  text-shadow: 2px 2px 3px #000000;
   margin: 10px;
 }
 
 #contact p{
   backdrop-filter: blur(10px) invert(25%);
+}
+
+#contact a{
+  color: #bad66e;
+  text-shadow: 2px 2px 3px #000;
 }
 
 
