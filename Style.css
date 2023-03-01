@@ -47,6 +47,7 @@ html {
   top: 0;
   left: 0;
 }
+
 /*navbar*/
 #navbar {
   display: flex;
@@ -84,6 +85,7 @@ html {
   bottom: -4px;
   left: 20px;
 }
+
 /*Accueil*/
 #presentation{
   background-image: url("img/president.jpg");
@@ -125,6 +127,11 @@ html {
 }
 
 /*skills*/
+#skills{
+  display: flex;
+  flex-direction: column;
+}
+
 #skills h2{
   background-color: #bad66e;
   color: #ffffff;
@@ -206,7 +213,6 @@ html {
   text-shadow: 1px 1px 2px #000;
 }
 
-
 /*contact*/
 #contact{
   background-image: url("img/d41586-019-00653-5_16459152.jpg");
@@ -258,8 +264,6 @@ html {
   text-shadow: 2px 2px 3px #000;
 }
 
-
-
 /*footer*/
 footer{
   background-color: #bad66e;
@@ -269,7 +273,6 @@ footer{
   justify-content: center;
   align-items: center;
   padding: 10px 0 10px 0;
-  
 }
 
 footer p{
