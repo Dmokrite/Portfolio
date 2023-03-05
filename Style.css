@@ -49,19 +49,19 @@ html {
 }
 
 /*navbar*/
-#navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#navbar li {
+.navbar li {
   list-style: none;
   padding: 0 20px;
   position: relative;
 }
 
-#navbar li a {
+.navbar li a {
   text-decoration: none;
   font-size: 25px;
   font-weight: 600;
@@ -70,13 +70,13 @@ html {
   text-shadow: 2px 2px 2px #000000;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
+.navbar li a:hover,
+.navbar li a.active {
   color: #bad66e;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after {
+.navbar li a.active::after,
+.navbar li a:hover::after {
   content: "";
   width: 30%;
   height: 2px;
