@@ -35,7 +35,7 @@ html {
 }
 
 /*head*/
-#head {
+#header {
   display: flex;
   align-items: center;
   justify-content: center;
