@@ -280,6 +280,11 @@ h4 {
   backdrop-filter: blur(10px) invert(25%);
 }
 
+.link{
+  color: #bad66e;
+  text-shadow: 2px 2px 3px #000;
+}
+
 /*footer*/
 footer {
   background-color: #bad66e;
