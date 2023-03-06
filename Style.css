@@ -124,6 +124,7 @@ h2,
 h3 {
   color: #bad66e;
   text-shadow: 4px 4px 8px #000;
+  padding: 25px;
 }
 
 #presentation p {
@@ -131,6 +132,7 @@ h3 {
   font-size: 25px;
   font-weight: 400;
   text-shadow: 3px 3px 6px #bad66e;
+  padding: 15px;
 }
 
 #presentation span {
@@ -312,4 +314,3 @@ footer p {
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
-
