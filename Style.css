@@ -96,7 +96,7 @@ h4 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 67.5vh;
 }
 
 #presentation h1,
@@ -136,6 +136,7 @@ h3 {
   display: flex;
   flex-direction: column;
   padding-top: 5px;
+  height: 67.5vh;
 }
 
 #skills h2{
@@ -228,13 +229,13 @@ h3 {
 /*contact*/
 #contact {
   background-image: url("img/ile.png");
-  background-size: cover;
+  background-size: 101%;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 67.5vh;
 }
 
 #contact .mail{
