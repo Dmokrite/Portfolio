@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +10,36 @@ html {
   scroll-behavior: smooth;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #a8da34;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #c52020;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #088178;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
 /*banner*/
-#banner{
+#banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,16 +52,11 @@ html {
   background-position: center;
 }
 
-#banner h3{
-  color: #bad66e;
-  text-shadow: 2px 2px 4px #000000;
+#banner h3,
+h4 {
+  color: #ffffff;
+  text-shadow: 3px 3px 3px #000000;
 }
-
-#banner h4{
-  color: #bad66e;
-  text-shadow: 2px 2px 4px #000000;
-}
-
 /*head*/
 #header {
   display: flex;
@@ -47,7 +70,6 @@ html {
   top: 0;
   left: 0;
 }
-
 /*navbar*/
 .navbar {
   display: flex;
@@ -63,7 +85,7 @@ html {
 
 .navbar li a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
   color: #ffffff;
   transition: 0.3s ease;
@@ -85,9 +107,8 @@ html {
   bottom: -4px;
   left: 20px;
 }
-
 /*Accueil*/
-#presentation{
+#presentation {
   background-image: url("img/president.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,30 +119,32 @@ html {
   height: 70vh;
 }
 
-#presentation h1,h2,h3{
+#presentation h1,
+h2,
+h3 {
   color: #bad66e;
   text-shadow: 4px 4px 8px #000;
-  padding: 40px;
 }
 
-#presentation p{
+#presentation p {
   color: #ffffff;
   font-size: 25px;
   font-weight: 400;
   text-shadow: 3px 3px 6px #bad66e;
 }
 
-#presentation span{
+#presentation span {
   color: #bad66e;
   text-shadow: 3px 3px 6px #000;
 }
 
-#presentation h1{
+#presentation h1 {
   font-size: 50px;
   font-weight: 700;
 }
 
-#presentation h2,h3{
+#presentation h2,
+h3 {
   font-size: 40px;
   font-weight: 450;
 }
@@ -130,6 +153,7 @@ html {
 #skills{
   display: flex;
   flex-direction: column;
+  padding-top: 5px;
 }
 
 #skills h2{
@@ -137,22 +161,21 @@ html {
   color: #ffffff;
   font-size: 40px;
   text-align: center;
-  text-shadow: none;
-  padding: 0%;
+  text-shadow: 2px 2px 3px#000;
+  padding: 1%;
 }
 
 #skills h3{
   background-color: #ffffff;
   color: #bad66e;
-  text-shadow: none;
+  text-shadow: 2px 2px 3px#000;
   font-size: 40px;
   text-align: center;
-  padding: 0%;
+  padding: 1%;
 }
 
 .box {
-  background-color: #ffffff;
-  margin: 5px 0 0;
+  background-color: #465331;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -165,6 +188,11 @@ html {
 .box .list{
   width: 100%;
   height: 50vh;
+  padding-top: 20px;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7 {
+  padding-bottom: 10px;
 }
 
 /*Projects*/
@@ -213,8 +241,10 @@ html {
   text-shadow: 1px 1px 2px #000;
 }
 
+
+
 /*contact*/
-#contact{
+#contact {
   background-image: url("img/d41586-019-00653-5_16459152.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,68 +255,59 @@ html {
   height: 70vh;
 }
 
-#contact h1{
+#contact .mail{
+  color: #bad66e;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#contact h1 {
   color: #ffffff;
   font-size: 45px;
   font-weight: 700;
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: 3px 3px 6px #000000;
   margin: 15px;
 }
 
-#contact h2, h3, h4{
+#contact h2,
+h3,
+h4 {
   font-size: 35px;
   font-weight: 600;
   color: #ffffff;
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: 3px 3px 6px #000000;
 }
 
-#contact span{
+#contact span {
   font-size: 20px;
   font-weight: 650;
   color: #ffffff;
-  text-shadow: 2px 2px 3spx #000000;
+  text-shadow: 3px 3px 4spx #000000;
 }
 
-#contact p{
+#contact p {
   font-size: 20px;
   font-weight: 650;
   color: #bad66e;
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: 4px 4px 6px #000000;
   margin: 10px;
 }
 
-#contact p{
+#contact p {
   backdrop-filter: blur(10px) invert(25%);
 }
 
-#contact a{
-  color: #bad66e;
-  text-shadow: 2px 2px 3px #000;
-}
-
 /*footer*/
-footer{
+footer {
   background-color: #bad66e;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   padding: 10px 0 10px 0;
 }
 
-footer p{
+footer p {
   font-size: 20px;
   font-weight: 250;
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
-
-
-
-
- 
-
-
-
-
