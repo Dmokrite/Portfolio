@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Flex", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 button.normal {
@@ -38,6 +39,7 @@ button.white {
 body {
   width: 100%;
 }
+
 /*banner*/
 #banner {
   display: flex;
@@ -57,6 +59,7 @@ h4 {
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
+
 /*head*/
 #header {
   display: flex;
@@ -70,6 +73,7 @@ h4 {
   top: 0;
   left: 0;
 }
+
 /*navbar*/
 .navbar {
   display: flex;
@@ -107,6 +111,7 @@ h4 {
   bottom: -4px;
   left: 20px;
 }
+
 /*Accueil*/
 #presentation {
   background-image: url("img/president.jpg");
