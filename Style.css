@@ -224,7 +224,35 @@ h3 {
   text-shadow: 1px 1px 2px #000;
 }
 
-.inlineframe{
+.earth{
+  margin: 0 61px;
+}
+
+.coming{
+  margin: 0 16px;
+}
+
+.market{
+  margin: 0 115px;
+}
+
+.fourcard{
+  margin: 0 -173px;
+}
+
+.nft{
+  margin: 0 -49px;
+}
+
+.product{
+  margin: 0 -30px;
+}
+
+.qr{
+  margin: 0 -8px;
+}
+
+iframe{
   scroll-behavior: none;
 }
 
