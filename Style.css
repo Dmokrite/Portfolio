@@ -336,3 +336,63 @@ footer p {
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
+
+@media screen and (max-width: 768px) {
+  
+  #banner {
+  height: 15vh;
+  }
+  #presentation {
+  height: auto;
+  min-height: 50vh;
+  }
+  #presentation h1 {
+  font-size: 35px;
+  }
+  #presentation h2,
+  h3 {
+  font-size: 30px;
+  }
+  #skills h2,
+  h3 {
+  font-size: 30px;
+  }
+  .project {
+  width: 100%;
+  }
+  .project-description h4 {
+  font-size: 30px;
+  }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+  #banner {
+  height: 10vh;
+  }
+  #presentation {
+  height: auto;
+  min-height: 40vh;
+  }
+  #presentation h1 {
+  font-size: 25px;
+  padding: 10px;
+  }
+  #presentation h2,
+  h3 {
+  font-size: 20px;
+  padding: 5px;
+  }
+  #skills h2,
+  h3 {
+  font-size: 25px;
+  padding: 5px;
+  }
+  .project {
+  width: 100%;
+  }
+  .project-description h4 {
+  font-size: 25px;
+  padding: 10px;
+  }
+  }
